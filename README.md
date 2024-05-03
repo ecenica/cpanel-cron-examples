@@ -12,10 +12,10 @@ To set this up as a cron job in cPanel, follow these steps:
 4. In the "Command" field, enter the path to your PHP script. For example:
    
 ```
-php /home/yourusername/public_html/sendemail.php
+wget -q -O - https://www.example.com/sendemail.php >/dev/null 2>&1
 ```
 
-Replace `/home/yourusername/public_html/sendemail.php` with the actual path to your PHP script.
+Replace `https://www.example.com/sendemail.php` with the actual URL to your PHP script.
 
 5. Set the frequency at which you want the cron job to run (e.g., every hour, every day).
 6. Click "Add New Cron Job" to save your changes.
