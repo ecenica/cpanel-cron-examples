@@ -23,6 +23,9 @@
  * ```
  * This will execute the script and display any output or errors directly in the terminal.
  *
+ * Note: Ensure that the sender address specified in the script ('From' header) is an email account set up in cPanel.
+ * Additionally, consider implementing SPF and DKIM sender authentication for better email deliverability and security.
+ *
  * @author      Ecenica Limited
  * @copyright   Copyright (c) Ecenica Limited
  * @license     MIT License
